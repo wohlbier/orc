@@ -1,10 +1,9 @@
 ## jgw
-```
 meson builddir
 meson configure --prefix=/local/devel/gnuradio/installs builddir
 cd builddir
 ninja install
-```
+
 
 
 ORC - The Oil Runtime Compiler
