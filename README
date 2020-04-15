@@ -1,6 +1,6 @@
 ## jgw
 meson builddir
-meson configure --prefix=/local/devel/gnuradio/installs builddir
+meson configure --prefix=/local/devel/gnuradio/installs --default-library=static builddir
 cd builddir
 ninja install
 
