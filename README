@@ -1,3 +1,11 @@
+## jgw
+```
+meson builddir
+meson configure --prefix=/local/devel/gnuradio/installs builddir
+cd builddir
+ninja install
+```
+
 
 ORC - The Oil Runtime Compiler
 ==============================
@@ -89,7 +97,7 @@ Future directions (Possibly outdated):
 
  - Addition of an option to compile the Orc library with only the
    runtime features for a single target, e.g., for embedded systems.
- 
+
  - Addition of rewrite rules, which convert an instruction that cannot
    be converted to binary code into a series of instructions that can.
    This is necessary since assembly instructions on most targets do
